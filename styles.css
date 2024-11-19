@@ -1,0 +1,345 @@
+body{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:"wdth" 100;
+
+}
+
+/*===============header start======================*/
+
+
+
+  
+  header{
+    width: 100%;
+    height: 180px;
+    text-align: center;
+   
+
+}
+
+header h1{
+font-size:3em;
+padding-top: 30px;
+padding-bottom: 20px;
+
+}
+
+header nav a{
+    font-size:2em;
+padding-top: 20px;
+padding-bottom: 20px;
+padding-left: 20px;
+text-decoration: underline;
+
+
+ }
+
+
+/*===============mission start======================*/
+
+  #mission{
+    width: 100%;
+    height:400px;
+    background-image: url("media/buk.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  
+
+}
+#statement{
+position: absolute;
+  top: 320px;
+width: 100%;
+min-height:20%;
+background-color: rgb(250, 250, 250);
+text-align: center;
+opacity: 0.7;
+
+
+}
+
+ h2{
+
+    font-size:2.5em;
+}
+
+
+
+
+/*===============portfolio start======================*/
+
+
+
+
+
+    .flex-container {
+      display:flex;
+      flex-wrap: wrap;
+      background-color: rgb(177, 189, 201);
+      
+   
+  }
+    
+    .flex-container > div {
+      background-color: rgb(238, 227, 227);
+     
+    flex: 30%;
+    margin: 10px 100px 20px 100px;
+   float: left;
+  
+    }
+  
+    .flex-container > div img{
+      width: 50%;
+      height:100%;
+      float: left;
+      text-align: center;
+  
+    }
+  
+    .flex-container > div h3{
+      text-align: center;
+      font-size: 1.5em;
+      margin: 30px;
+  
+  
+    }
+    .flex-container > div p{
+      text-align: center;
+      font-size: 1em;
+      margin: 5px;
+  
+  
+    }
+  
+    #portfolio{
+       width: 100%;
+       height: 100px;
+       text-align: center;
+       margin-top: 20px;
+  
+    }
+  
+
+  
+  
+  
+
+ /*===============Our Team start======================*/
+
+  
+  .flex-container-team{
+    display:flex;
+    flex-wrap: wrap;
+    background-color: rgb(177, 189, 201);
+    
+  }
+  
+  .flex-container-team > div {
+    background-color: rgb(238, 227, 227);
+  flex: 25%;
+  margin: 30px 50px 30px 50px;
+  float: left;
+  
+  }
+  
+  .flex-container-team > div img{
+  
+    width: 150px;
+    height:200px;
+    float: left;
+    text-align: center;
+  
+  }
+  h3{
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 100px;
+  
+  
+  }
+  
+  .flex-container-team > div p{
+    text-align: center;
+    font-size: 1em;
+    margin: 20px 30px 20px 20px;
+    float: right;
+  
+  
+  }
+   p{
+    text-align: center;
+    font-size: 1em;
+    margin: 10px;
+    
+  }
+  
+  #team{
+     width: 100%;
+     height: 100px;
+     text-align: center;
+     margin-top: 20px;
+     
+  
+  }  
+
+ /*===============footer start======================*/
+
+  #so-media img{
+    width: 30px;
+    height:30px;
+    float: left;
+   margin: 10px;
+  
+  
+   }
+   #copyr{
+    float:right;
+    margin: 20px 30px 20px 20px;
+     }
+    
+     #footer-contact-us{
+      width: 100%;
+       height: 100px;
+       text-align: center;
+       margin-top: 20px;
+    
+    
+     } 
+
+
+
+     @media only screen and (min-width: 320px) and (max-width:600px) {
+/*================heder=================*/
+header h1{
+font-size:2em;
+padding-top: 30px;
+padding-bottom: 20px;
+}
+
+header nav a{
+    font-size:1em;
+padding-top: 20px;
+padding-bottom: 20px;
+padding-left: 20px;
+text-decoration: underline;
+ }
+
+/*===============mission start======================*/
+    h2{
+        font-size:1.5em;
+     }
+     p{
+      text-align: center;
+      font-size: 0.75em;
+      margin: 10px;
+    }
+
+ /*===============Our portfolio start======================*/
+ .flex-container > div {
+  background-color: rgb(238, 227, 227);
+flex: 100%;
+margin: 10px 10px 10px 10px;
+float: left;
+}
+
+.flex-container > div img{
+  width: 50%;
+  height:100%;
+  float: left;
+  text-align: center;
+}
+
+.flex-container > div h3{
+  text-align: center;
+  font-size: 1em;
+  margin: 10px;
+}
+.flex-container > div p{
+  text-align: center;
+  font-size: 0.75em;
+  margin: 5px;
+}
+ /*===============Our Team start======================*/
+ .flex-container-team > div {
+  background-color: rgb(238, 227, 227);
+flex:80%;
+margin: 5px 10px 5px 10px;
+float: left;
+}
+.flex-container-team > div img{
+
+  width: 100px;
+  height:150px;
+  float: left;
+  text-align: center;
+}
+h3{
+  text-align: center;
+  font-size: 1em;
+  margin-top: 50px;
+}
+
+.flex-container-team > div p{
+  text-align: center;
+  font-size: 0.75em;
+  margin: 20px 30px 20px 20px;
+  float: right;
+}
+ 
+
+ /*===============footer start======================*/
+
+ #so-media img{
+  width: 30px;
+  height:30px;
+  float: left;
+ margin: 5px;
+
+
+ }
+ #copyr{
+  float:right;
+  margin: 20px 30px 20px 20px;
+   }
+  
+   #footer-contact-us{
+    width: 100%;
+     height: 100px;
+     text-align: center;
+     margin-top: 5px;
+  
+  
+   } 
+
+
+
+
+}
+
+
+
+ 
+     @media only screen and (min-width: 999px) and (max-width:1150px) {
+
+
+      .flex-container > div h3{
+        text-align: center;
+        font-size: 1.2em;
+        margin: 30px;
+    
+    
+      }
+      .flex-container > div p{
+        text-align: center;
+        font-size: 0.70em;
+        margin: 5px;
+    
+    
+      }
+
+     }
+ 
